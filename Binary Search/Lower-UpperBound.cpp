@@ -1,8 +1,9 @@
-//  lower bound  i.e.,  index>=element_x;
+//  lower bound  i.e.,  arr[index]>=element_x;
 //  upper bound i.e., index>element_x;
 // function to find lower bound
 // int ans = lower_bound(a.begin(),a.end(),low_bound);
 // to find lower bound between index 2 ans 5 ans = lower_bound(a+2,a+5,low_bound);
+// floor value  a[idx] <= element_x &&   coil value a[idx]>=element_x
 
 #include<bits/stdc++.h>
 using namespace std;
