@@ -1,18 +1,23 @@
+
+// finding which ele is appears only once
 #include<bits/stdc++.h>
 using namespace std;
 
 int searchUnique(int a[], int n)
 {
+    // checking if first element is unique
     if(a[0] != a[1])
     {
         return a[0];
     }
 
+    // checking if last ele is unique
     if(a[n-1] != a[n-2])
     {
         return a[n-1];
     }
-    
+
+    // else
     for(int i=1; i<n-1; i++)
     {
        int left = i-1;
