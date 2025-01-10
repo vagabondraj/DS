@@ -18,6 +18,9 @@ int PeakElement(int a[], int n)
         if(a[i-1] < a[i] && a[i] > a[i+1])
         {
             return a[i];
+        }else
+        {
+            low = mid+1;
         }
     }
     return -1;
