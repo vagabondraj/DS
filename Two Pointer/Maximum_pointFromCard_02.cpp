@@ -1,3 +1,6 @@
+/* you are given different cards and you can only pick cards from either ends
+    what's is the maximum point one can gain*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
