@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// traverse from last
 
 vector<int> nextGreaterEle(int arr[], int n)
 {
